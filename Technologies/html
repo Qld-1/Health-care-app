@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meals</title>
+    <link rel="stylesheet" href="static/style/style.css">
+</head>
+<body>
+
+    <nav>
+        <h2>Health App</h2>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Meals</a></li>
+            <li><a href="#">Profile</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Meals</h1>
+    </header>
+
+    <section class="form-section">
+        <h2>Add Meal</h2>
+
+        <form>
+            <input type="text" placeholder="Meal Name">
+
+            <input type="number" placeholder="Calories">
+
+            <input type="number" placeholder="Protein (g)">
+
+            <button type="submit">Add Meal</button>
+        </form>
+    </section>
+
+    <section class="meals">
+        <h2>Today's Meals</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Breakfast</h3>
+                <p>Calories: 350</p>
+                <p>Protein: 20g</p>
+            </div>
+
+            <div class="card">
+                <h3>Lunch</h3>
+                <p>Calories: 600</p>
+                <p>Protein: 35g</p>
+            </div>
+
+            <div class="card">
+                <h3>Dinner</h3>
+                <p>Calories: 500</p>
+                <p>Protein: 30g</p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Health App</p>
+    </footer>
+
+</body>
+</html>
